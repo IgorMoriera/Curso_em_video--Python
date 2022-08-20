@@ -16,5 +16,3 @@ soma = n1+n2
 
 # Mostrando o resultado entre a soma dos valores escolhidos pelo usuário
 print('A soma entre {} e {} vale {}'.format(n1, n2, soma))
-
-# teste pelo PyCharm
