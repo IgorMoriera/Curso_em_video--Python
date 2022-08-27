@@ -1,13 +1,26 @@
+# Exercício 018 #
+#
+# Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno,
+#  cosseno e tangente desse ângulo
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 018 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)
 
+# Importando a função math
 import math
 
+# Determinando o valor do ângulo
 ang = float(input('Digite o valor do angulo: '))
 
-sen = math.sin(ang)
-cos = math.cos(ang)
-tan = math.tan(ang)
+# Realização dos cálculo
+sen = math.sin(math.radians(ang))
+cos = math.cos(math.radians(ang))
+tan = math.tan(math.radians(ang))
 
-print('Para um angulo de {}º, temos: \nCos = {:.2f} \nSen = {:.2f} \nTan = {:.2f}'.format(ang, sen, cos, tan))
+# Mostrando os resultados
+print('Para um angulo de {}º, temos: '
+      '\n>> Cos = {:.2f}'
+      '\n>> Sen = {:.2f}'
+      '\n>> Tan = {:.2f}'.format(ang, sen, cos, tan))
