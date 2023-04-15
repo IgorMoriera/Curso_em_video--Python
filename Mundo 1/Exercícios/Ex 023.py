@@ -14,7 +14,7 @@ print('\033[1;33m-=\033[m' *19)
 num = int(input('Escolha um número de 0 até 9999: '))
 
 # Calculando as unidades, pegando o resto das divisões por 10
-u = num // 1 % 10
+u = num // 1 % 10 #Pegando o número, dividindo por 10 e pegando o resto da divisão
 d = num // 10 % 10
 c = num // 100 % 10
 m = num // 1000 % 10

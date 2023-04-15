@@ -1,3 +1,11 @@
+# Exercício 028 #
+#
+# Escreva um programa que faça o computador "pensar" em um
+# número inteiro entre 0 a 5 e peça para o usuário tentar descobrir
+# qual foi o número escolhido pelo computador.
+# O programa devará escraver na tala se o usuário venceu ou perdeu.
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 028 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

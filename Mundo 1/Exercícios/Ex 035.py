@@ -1,3 +1,9 @@
+# Exercício 035 #
+#
+# Dasenvolva um programa que leia o comprimento de três retas a diga ao usuário se elas podem ou
+# não formar um triângulo.
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 035 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

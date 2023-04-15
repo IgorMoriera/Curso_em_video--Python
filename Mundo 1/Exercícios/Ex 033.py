@@ -1,6 +1,11 @@
-print('\033[1;33m-=' *19)
+# Exercício 033 #
+#
+# Faça um programa que leia três números e mostre qual deles é MAIOR e qual é o MENOR.
+
+
+print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 033 -=-=-=-=-=-')
-print('\033[1;33m-=\033[m' *19)
+print('\033[1;33m-=\033[m' * 19)
 
 a = int(input('Digite a 1º número: '))
 b = int(input('Digite a 2º número: '))

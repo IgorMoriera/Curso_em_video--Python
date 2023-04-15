@@ -1,3 +1,8 @@
+# Exercício 032 #
+#
+# Faça um programa que leia um ano qualquer e mostre se ele é BISSEXTO.
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 032 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)
