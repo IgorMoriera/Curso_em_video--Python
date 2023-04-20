@@ -1,3 +1,9 @@
+# Exercício 048 #
+#
+# Faça um programa que calcule a soma entre todos os números impares que são múltiplos de três e que se encontram
+# no intervalo de 1 à 500
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 048 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

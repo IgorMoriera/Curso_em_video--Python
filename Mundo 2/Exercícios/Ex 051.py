@@ -1,3 +1,9 @@
+# Exercício 051 #
+#
+# Desenvolva um programa que leia o primeiro termo e a razão de uma PA. No final, mostre os 10 primeiros termos
+# dessa progressão aritmética.
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 051 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

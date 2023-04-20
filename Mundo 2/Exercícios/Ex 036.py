@@ -1,3 +1,10 @@
+# Exercício 036 #
+#
+# Escreva um programa para aprovar o empréstimo bancário para a compra de uma casa. Pergunte o valor da casa,
+# o salário do comprador e em quantos anos ele vai pagar.
+# A prestação mensal, não pode exceder 30% do salário o uentão o empréstimo será negado.
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 036 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

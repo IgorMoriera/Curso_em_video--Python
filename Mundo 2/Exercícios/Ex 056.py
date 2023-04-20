@@ -1,3 +1,11 @@
+# Exercício 056 #
+#
+# Desenvolva um programa que leia o nome, idade e sexo de 4 pessosa. No final do programa, mostre:
+# > A média de idade do grupo.
+# > Qual o nome do homen mais velho.
+# > Quantas mulheres tem menos de 20 anos.
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 056 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)
@@ -15,6 +23,7 @@ for pess in range(1, 5):
     sexo = str(input('[M/F]: ')).upper().strip()
 
     sidade += idade
+
 # Definindo o homem mais velho
     if pess == 1 and sexo == 'M':
         maiorIdadeHomen = idade

@@ -1,3 +1,11 @@
+# Exercício 037 #
+#
+# Escreva um programa que leia um número inteiro qualquer e peça para o usuário escolher qual será a base de conversão:
+# - 1 para Binário
+# - 2 para Octal
+# - 3 para Hexadecimal
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 037 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

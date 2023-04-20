@@ -1,3 +1,8 @@
+# Exercício 045 #
+# Crie um origrama que faça o computador jogar JOKENPÔ com você
+#
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 045 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

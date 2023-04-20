@@ -1,3 +1,9 @@
+# Exercício 054 #
+#
+# Crie um programa que leia o ano de nascimento de 7 pessoas. No final, mostre quantas pessoas ainda nçao atingiram
+# a maioridade e quantas já são maiores.
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 054 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

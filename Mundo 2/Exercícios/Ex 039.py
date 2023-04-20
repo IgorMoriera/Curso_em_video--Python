@@ -1,3 +1,10 @@
+# Exercício 039 #
+#
+# Faça um programa que leia o ano de nascimento de um jovem e informe, se de acordo com sua idade,
+# se ele ainda vai se alistar ao serviço militar, se é a hora de se alistar ou se já passou do tempo do alistamanto.
+# Seu programa também devara mostrar o tempo qua falta ou que passou do prazo.
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 039 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

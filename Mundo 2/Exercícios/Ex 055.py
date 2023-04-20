@@ -1,3 +1,8 @@
+# Exercício 055 #
+#
+# Faça um programa que leia o peso de cinco pessoas. No final, mostre qual foi o maior e o menor peso lido.
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 055 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

@@ -1,3 +1,9 @@
+# Exercício 050 #
+#
+# Desenvolva um programa que leia 6 números e mostre a soma apenas daqueles que forem pares. Seo valor digitado for
+# ìmpar deseconsidere-o.
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 050 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

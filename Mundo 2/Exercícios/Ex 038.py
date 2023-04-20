@@ -1,3 +1,12 @@
+# Exercício 038 #
+#
+# Escreva um progrmama que leia dois números inteiros e compare-os,
+# mostrando na tela uma mensagem:
+# - O primeiro valor é MAIOR
+# - O segundo valor é MENOR
+# - Não existe valor maior, os dois são iguais
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 038 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

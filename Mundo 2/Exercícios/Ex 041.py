@@ -1,3 +1,14 @@
+# Exercício 041 #
+#
+# A Confederação Nacional de Natação precisa de um programa que leia o ano de nascimento de uma atleta e mostre sua
+# categoria, de acordo com a idade:
+# - Até 9 anos: MIRIM
+# - Até 14 ano: INFANTIL
+# - Até 19 anos: JUNIOR
+# - Até 25 anos: SÊNIOR
+# - Acima de> MASTER
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 041 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

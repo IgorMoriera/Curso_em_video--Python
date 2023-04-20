@@ -1,3 +1,13 @@
+# # Exercício 044 #
+#
+# Elabore um código que calcule o valor a ser pago por um produto, considerando o seu preço e condição de pagamento:
+#
+# - À vista dinheiro/cheque: 10% de deseconto
+# - À vista no cartão: 5% de deseconto
+# - Em até 2x no cartão: Preço normal
+# - 3x ou mais no cartçao: 20% de juros
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 044 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

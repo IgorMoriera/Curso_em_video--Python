@@ -1,3 +1,8 @@
+# Exercício 049 #
+#
+# Refaça o desafio 009, mostrnado a tabuada de um número que o usuário escolher, só que agora utilizando um laço for.
+
+
 print('\033[1;33m-=' *19)
 print('''\033[1;34m-=-=-=-=-=- Exercício 049 -=-=-=-=-=-
 -=-=-=-=- Fazendo tabuada -=-=-=-=-''')

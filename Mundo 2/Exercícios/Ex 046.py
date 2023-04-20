@@ -1,3 +1,9 @@
+# Exercício 046 #
+#
+# Faça um programa que mostre na tela uma contagem regressiva para o estouro de fogos de artifício, indo de 10 até
+# 0, com uma pausa de 1s entre eles.
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 046 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

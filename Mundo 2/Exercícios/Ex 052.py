@@ -1,3 +1,8 @@
+# Exercício 052 #
+#
+# Faça um programa que leia um número inteiro e diga se ele é ou não é um número primo
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 052 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

@@ -1,3 +1,11 @@
+# Exercício 042 #
+#
+# Refaça o exercício 035 dos trinâmgulos, acrescentando o recurso de mostrar que tipo de triângulo será formado:
+# - Eqiolátero: todos os lados são iguais
+# - Isósceles: dois lados iguais
+# - Escaleno: todos os lados diferentes
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 042 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)
