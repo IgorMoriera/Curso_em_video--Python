@@ -1,3 +1,11 @@
+# Exercício 081 #
+#
+# Crie um programa que leia vários números e coloque-os em uma lista. Depois disso, mostre:
+# A) Quantos números foram digitados.
+# B) A lista de valores, ordenada de forma decrscente.
+# C) Se o valor 5 foi digitado e está ou não na lista.
+
+
 print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 081 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)

@@ -1,3 +1,14 @@
+# Exercício 059 #
+#
+# Crie um programa que leia dois valores e mostre um menu na tela:
+# [1] somar
+# [2] multiplicar
+# [3] maior
+# [4] novos números
+# [5] sair do programa
+# Seu programa deverá realizar a opeação solicitada em cada caso.
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 059 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

@@ -1,6 +1,8 @@
 # Exercício 058 #
 #
-# Faç
+# Melhore o jogo do DESAFIO 028 onde o computador vai "pensar" em um número enter 0 e 10.
+# Só que agora o jogador vai tentar adivinhar até acertar, mostrando no final quantos palpites
+# foram necessários para vencer
 
 
 print('\033[1;33m-=' *19)
@@ -20,7 +22,7 @@ print('-=-' * 16)
 
 while num != pc:
     num = int(input('Em que número pensei? '))
-    if num != pc :
+    if num != pc:
         cont += 1
         if num < pc:
             print('\033[1;33mMais. . .\033[m Tente novamente.')

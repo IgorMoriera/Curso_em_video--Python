@@ -1,3 +1,10 @@
+# Exercício 080 #
+#
+# Crie um proigrama onde o usuário possa digitar 5 valores numéricos e cadastr-os em uma lista, já na posição correta
+# de inserção (sem utilizar o sort()).
+# No final, mostre a lsita ordenada na tela.
+
+
 print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 080 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)

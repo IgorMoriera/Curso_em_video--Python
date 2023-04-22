@@ -1,3 +1,11 @@
+# Exercício 087 #
+#
+# Aprimore o desafio anterior, mostrando no final:
+# A) A soma de todos os valores pares digitados.
+# B) A soma dos valroes da terceira coluna.
+# C) O maior valor da segunda linha.
+
+
 print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 087 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)
@@ -22,6 +30,7 @@ for c in range(0, 3):
 
 print('=-' * 30)
 
+# Imprimindo os valores da matriz
 for l in range(0, 3):
     for c in range(0, 3):
         print(f'[{mat[l][c]:^5}]', end='')

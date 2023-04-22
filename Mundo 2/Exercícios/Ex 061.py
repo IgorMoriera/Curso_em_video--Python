@@ -1,3 +1,9 @@
+# Exercício 061 #
+#
+# Refaça o DESAFIO 051, lendo o primeiro termo e a razão de uma PA, mostrando os 10 primeiros termos da
+# progressão usando a estrutura while.
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 061 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)

@@ -1,3 +1,12 @@
+# Exercícios 090 #
+#
+# Crie um programa que leia a nome e o preço de vários produtos. O programa deverá perguntar se o usuário vai continuar.
+# No final, mostre:
+# A) Qual é o total gasto.
+# B) Quantos produtos custam mais de R$100.
+# C) QUal é o nome do produto mais barato.
+
+
 print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 070 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)

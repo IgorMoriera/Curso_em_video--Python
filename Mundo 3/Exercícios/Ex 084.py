@@ -1,3 +1,11 @@
+# Exercício 084 #
+#
+# Faça um programa que leia o nome e peso de várias pessoas, guardando tudo em uma lista. No final, motre:
+# A) Quantas pessoas foram cadastradas.
+# B) Uma listagem com as pessoas mais pesadas.
+# C) Uma listagem com as pessoas mais leves.
+
+
 print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 084 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)

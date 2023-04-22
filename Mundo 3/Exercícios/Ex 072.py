@@ -1,3 +1,9 @@
+# Exercício 072 #
+#
+# Crie um programa que tenha uma tupla totalmente preenchida com uma contagem por extensão, de 0 até 20.
+# O programa deverá ler um número pelo teclado (entre 0e 20) e mostrá-lo por extenso.
+
+
 print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 072 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)

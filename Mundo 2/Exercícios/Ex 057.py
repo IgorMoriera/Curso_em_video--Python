@@ -1,7 +1,7 @@
 # Exercício 057 #
 #
-# Faç
-
+# Faça um programa que leia o sexo de uma pessoa, mas só acieite os valores 'M' ou 'F'.
+# Caso esteja errado, peça a digitação novamente até ter um valor correto.
 
 
 print('\033[1;33m-=' *19)
@@ -13,7 +13,7 @@ femi = 'F'
 sexo = ''
 
 while sexo != 'M' and sexo != 'F':
-    sexo = str(input('Qual o seu sexo [M/F]: ')).upper().strip() [0]
+    sexo = str(input('Qual o seu sexo [M/F]: ')).upper().strip()[0]
 
     if sexo != 'F' or sexo != 'M':
         print('Dígito incorrreto.')

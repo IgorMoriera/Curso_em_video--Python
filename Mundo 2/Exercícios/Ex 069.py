@@ -1,3 +1,12 @@
+# Exercícios 069 #
+#
+# Crie um programa que leia a idade e o sexo de várias pessoas. Para cada pessoa cadastrada, o programa deverá perguntar
+# se o usuário quer ou não continuar. No final, mostre:
+# A) Quantas pessoas tem mais de 18 anos.
+# B) Quantos homens foram cadastrados.
+# C) Quantas mulheres tem menos de 20 anos.
+
+
 print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 069 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)

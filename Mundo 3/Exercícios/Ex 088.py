@@ -1,3 +1,8 @@
+# Exercício 088 #
+#
+# Faça um programa que ajude um jogador da MEGA SENA a criar palpites. O program vai perguntar quantos jogos serão
+# gerados e vai sortear 6 números entre 1 e 60 para cada jogo, cadastrado tudo em uma lista composta.
+
 print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 088 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)

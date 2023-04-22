@@ -1,3 +1,10 @@
+# Exercícios 071 #
+#
+# Crie um programa que simule o funcionamento de um caixa eletrônico. No início, pergunte ao usuário qual será o valor
+# a ser sacado (número inteiro) e o programa vai infomrar quantas cédulas de cada valor serão entregues.
+# OBS: Considere que o caixa possui cédulas de R$50, R$20, R$10 e R$1.
+
+
 print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 071 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)

@@ -1,3 +1,10 @@
+# Exercício 082 #
+#
+# Crie um programa que leia vários números e coloque-os em uma lista.
+# Depois disso, crie duas lsitas extras que vão conter apenas os valores pares e os valores ímpares digitados
+# respsctivamente. Ao final, mostre o conteúdo das 3 listas gereadas.
+
+
 print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 082 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)

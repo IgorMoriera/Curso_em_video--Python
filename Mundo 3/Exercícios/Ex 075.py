@@ -1,3 +1,11 @@
+# Exercício 075 #
+#
+# Desenvolva um programa que leia quatro valores pelo teclado e guarde-os em uma tupla. No final, mostre:
+# A) Quantas vezes apareceu o valor 9.
+# B) Em que posição foi digitado o primeiro valor 3.
+# C) Quais foram os núemros pares.
+
+
 print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 075 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)
@@ -18,6 +26,7 @@ if 3 in valores:
     print('--' * 15)
 else:
     print('Não foi digitado o números 3 nesta sequência.')
+
 # C
 print(f'Os valores pares digitados são: ', end=' ')
 for n in valores:

@@ -1,3 +1,9 @@
+# Exercícios 068 #
+#
+# Faça um programa que jogue par ou ímpar com o computador. O jogo só será interrompido quando o jogador PERDER,
+# mostrando o total de vitórias consecutivas que ele conqiuistou no final do jogo.
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 068 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)
@@ -47,4 +53,3 @@ while True:
 print(f'Você venceu {cont} vezes seguidas.')
 print('=-' * 20)
 print('GAME OVER! Volte sempre.')
-

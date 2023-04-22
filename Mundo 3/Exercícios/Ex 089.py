@@ -1,3 +1,8 @@
+# Exercício 089 #
+#
+# Crie um programa que leia nome e duas notas de vários alunos e guarde tudo em uma lista composta. No final, mostre
+# um boletim cotendo a média de cada um e permita que o usuário possta mostrar as notas de cada aluno individualmente.
+
 print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 089 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)

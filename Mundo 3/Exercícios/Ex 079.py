@@ -1,3 +1,10 @@
+# Exercício 079 #
+#
+# Crie um programa onde usuário possa digitar vários valores numéricos e cadasrte-os em uma lsita. Caso o números já
+# exista lá dentro, ele não será adiconado. No final, serão exibidos todos os valores numéricos digitados
+# em ordem crescente.
+
+
 print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 079 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)

@@ -1,3 +1,9 @@
+# Exercícios 067 #
+#
+# Faça um programa quemostre a tabuada de vários números, um de cada vez, para cada valor digitado pelo usuário.
+# O programa será interrompido quando o núemro solicitado for negativo.
+
+
 print('\033[1;33m-=' *19)
 print('\033[1;34m-=-=-=-=-=- Exercício 067 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' *19)
