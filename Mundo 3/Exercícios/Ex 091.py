@@ -1,3 +1,9 @@
+# Exercício 091 #
+#
+# Crie um programa onde 4 jogadores joguem um dado e tenham resultados aleatórios.
+# Guarde esses resultados em um dicionário.
+# No final, coloque esse dicionário em ordem, sabendo que o vencedor tirou o maior número no dado.
+
 print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 091 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)
@@ -24,6 +30,6 @@ print(f'Ranking dos jogadores: ')
 
 c = 1
 for k, v in sorted(sorte.items(), key=itemgetter(1), reverse=True):
-       print(f'   {c}º lugar: {k} com {v}')
-       c += 1
-       sleep(1)
+    print(f'   {c}º lugar: {k} com {v}')
+    c += 1
+    sleep(1)

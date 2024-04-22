@@ -1,29 +1,31 @@
+# Exercício 095 #
+#
+# Aprimore o DESAFIO 093 para que ele funcione com vários jogadores, incluindo um sistema de visualização de detalhes
+# do aproveitamento de cada jogador.
+
 print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 095 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)
 
-desempenho = dict()
-gol_partida = list()
-partida = list()
+desempenho = []
 jogador = 0
 
 while True:
-    desempenho.clear()
+    jogador_data = {}
     print('--' * 25)
-    desempenho['Nome'] = str(input('Nome do jogador: '))
+
+    jogador_data['Nome'] = str(input('Nome do jogador: '))
     jogador += 1
 
-    partidas = int(input(f'Quantas partidas {desempenho["Nome"]} jogou? '))
-    partida.clear()
+    partidas = int(input(f'Quantas partidas {jogador_data["Nome"]} jogou? '))
+    gols_partida = []
 
-    cont = soma = 0
-    for c in range(1, partidas+1):
-        partida.append(int(input(f'Quantos gols na partida {c}? ')))
-        cont += 1
+    for c in range(1, partidas + 1):
+        gols_partida.append(int(input(f'Quantos gols na partida {c}? ')))
 
-    desempenho['Gols'] = partida.copy()
-    desempenho['Total'] = sum(partida)
-    gol_partida.append(desempenho.copy())
+    jogador_data['Gols'] = gols_partida
+    jogador_data['Total'] = sum(gols_partida)
+    desempenho.append(jogador_data.copy())
 
     resposta = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
     while resposta not in 'SN':
@@ -35,32 +37,29 @@ while True:
 
 print('-=' * 30)
 
-print('COD ', end='')
-for i in desempenho.keys():
-    print(f'{i:<15}', end='')
-print()
+print(f'{"COD":<5}{"Nome":<15}{"Gols":<25}{"Total":<10}')
+print('-' * 60)
 
-print('-' * 40)
+for indice, jogador_data in enumerate(desempenho):
+    print(f'{indice:<5}{jogador_data["Nome"]:<15}{str(jogador_data["Gols"]):<25}{jogador_data["Total"]:<10}')
 
-for k, v in enumerate(gol_partida):
-    print(f'{k:>3} ', end='')
-    for d in v.values():
-        print(f'{str(d):<15}', end='')
-    print()
-
-print('-' * 40)
+print('-' * 60)
 
 while True:
     busca = int(input('Mostrar dados de qual jogador (999 para parar)? '))
 
     if busca == 999:
         break
+
     if busca >= len(desempenho):
         print(f'ERRO! Não existe jogador com código {busca}!')
-    else:
-        print(f' -- LEVATAMENTO DO {desempenho["Nome"]}: ')
-        for i, g in enumerate(gol_partida[busca]['Gols']):
-            print(f'    No jogo {i+1} fez {g} gols.')
 
-    print('-' * 40)
+    else:
+        print(f' -- LEVANTAMENTO DO JOGADOR: {desempenho[busca]["Nome"]}')
+
+        for idx, gols in enumerate(desempenho[busca]['Gols']):
+            print(f'    No jogo {idx + 1} fez {gols} gols.')
+
+    print('-' * 60)
+
 print('\n<<< ENCERRADO >>>')

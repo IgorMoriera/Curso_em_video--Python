@@ -1,3 +1,8 @@
+# Exercício 090 #
+#
+# Faça um programa que leia nome e média de um aluno, guradando também a situação em um dicionário.
+# No final, mostre o conteúdo da estrutura na tela.
+
 print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 090 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)

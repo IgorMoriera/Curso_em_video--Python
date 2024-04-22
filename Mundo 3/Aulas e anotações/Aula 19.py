@@ -109,7 +109,7 @@
    * Identificando os itens dos dicionários nas listas (devolvendo os itens dos dicionários):
 
         print(brasil[0]['uf']) -- Rio de Janeiro
-        print(brasil[1]['uf']) -- São Paulo
+        print(brasil[1]['sigla']) -- SP
 
 
 # Atribuindo valores aos diconários -- utilizando a função copy()
@@ -125,6 +125,13 @@
     for e in brasil:
         for k, v in e.items():
         print(f'O campo {k} tem valor {v}')
+
+ou
+
+    for e in brasil:
+        for v in e.items():
+            print(v, end=' ')
+        print()
 
 
 
