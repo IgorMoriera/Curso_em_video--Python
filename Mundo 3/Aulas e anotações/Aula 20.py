@@ -50,7 +50,7 @@ def é dedefinição de função:
 
         contador(2, 1, 7)       -- ... e são aotodo 3 números
         contador(8, 0)          -- ... e são aotodo 2 números
-        contador(4, 4, 7, 6, 2) -- ...e são aotodo 5 números
+        contador(4, 4, 7, 6, 2) -- ... e são aotodo 5 números
 
 
 
