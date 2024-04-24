@@ -1,6 +1,6 @@
 # Estudando Funções part 2
 
->> Interative Help - ajuda interativa
+#>> Interative Help - ajuda interativa
 
     '''
     Para obter a ajuda interativa, basta digitar: help()
@@ -9,11 +9,11 @@ e em seguida digitar o nome do comando desejado para verificar todas as infomaç
     EX: help()
     '''
 
->> Docstrings - manual do comando desejado
+#>> Docstrings - manual do comando desejado
 
-    Esta função retorna o que significa os parâmetros de cada função escolhida.
+    #Esta função retorna o que significa os parâmetros de cada função escolhida.
 
-    EX:
+    #EX:
         def contador(i, f, p):
             '''
                 -> Faz uma contagem e mostra na tela.
@@ -32,9 +32,9 @@ e em seguida digitar o nome do comando desejado para verificar todas as infomaç
     help(contador)
 
 
->> Parâmetros opcionais
+#>> Parâmetros opcionais
 
-    EX:
+    #EX:
         def contador(a=0, b=0, c=0):
             s = a + b + c
             print(f'A soma vale {s}')
