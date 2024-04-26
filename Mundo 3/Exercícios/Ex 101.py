@@ -7,16 +7,17 @@ print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 101 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)
 
-from datetime import date
-
 
 def voto(ano=0):
-    print('--'*20)
-    ano = int(input('Em que ano você nasceu? '))
 
+    from datetime import date
+
+    print('--'*20)
+
+    ano = int(input('Em que ano você nasceu? '))
     idade = (date.today().year - ano)
 
-    if idade >= 18 and idade <= 65:
+    if idade <= 18 and idade <= 65:
         return print(f'Com {idade} anos: VOTO OBRIGATÓRIO')
 
     elif idade <= 17:
@@ -24,5 +25,6 @@ def voto(ano=0):
 
     else:
         return print(f' Com {idade}: VOTO OPCIONAL')
+
 
 voto()

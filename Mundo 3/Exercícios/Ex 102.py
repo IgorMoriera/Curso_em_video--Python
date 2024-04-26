@@ -8,11 +8,14 @@ print('\033[1;33m-=' * 19)
 print('\033[1;34m-=-=-=-=-=- Exercício 102 -=-=-=-=-=-')
 print('\033[1;33m-=\033[m' * 19)
 
-print('')
-
 
 def fatorial(num, show=False):
-
+    """
+    --> Calcula o Fatorial de um número.
+    > parâmetro n: O número a ser calculado.
+    > parâmetro show: (opcional) Mostrar ou não a resolução da conta.
+    > parâmetro return: O valor do Fatorial de um número n.
+    """
     mult = 1
 
     if show is True:
