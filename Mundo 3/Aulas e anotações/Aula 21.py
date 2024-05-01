@@ -2,12 +2,11 @@
 
 #>> Interative Help - ajuda interativa
 
-    '''
+"""
     Para obter a ajuda interativa, basta digitar: help()
 e em seguida digitar o nome do comando desejado para verificar todas as infomações do comando escolhido.
 
     EX: help()
-    '''
 
 #>> Docstrings - manual do comando desejado
 
@@ -47,7 +46,7 @@ e em seguida digitar o nome do comando desejado para verificar todas as infomaç
 
 >> Escopo de variáveis
 
-    >>>> - '''Descrição deste assunto resumido em foto salva nos arquivos do curso.'''
+    >>>> '''Descrição deste assunto resumido em foto salva nos arquivos do curso.'''
 
 
 
@@ -97,3 +96,4 @@ e em seguida digitar o nome do comando desejado para verificar todas as infomaç
         print('É par!')
     else:
         print('Não é par!')
+"""
